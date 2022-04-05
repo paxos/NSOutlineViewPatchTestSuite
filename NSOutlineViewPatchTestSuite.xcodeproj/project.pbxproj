@@ -12,19 +12,11 @@
 		6F8AEE8827FB9764001D8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8727FB9764001D8C88 /* Assets.xcassets */; };
 		6F8AEE8B27FB9764001D8C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8927FB9764001D8C88 /* Main.storyboard */; };
 		6F8AEE9627FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE9527FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift */; };
-		6F8AEEA027FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE9F27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.swift */; };
-		6F8AEEA227FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEEA127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift */; };
+		6FAD56D227FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6F8AEE9227FB9765001D8C88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F8AEE7827FB9764001D8C88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F8AEE7F27FB9764001D8C88;
-			remoteInfo = NSOutlineViewPatchTestSuite;
-		};
-		6F8AEE9C27FB9765001D8C88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6F8AEE7827FB9764001D8C88 /* Project object */;
 			proxyType = 1;
@@ -42,9 +34,7 @@
 		6F8AEE8C27FB9764001D8C88 /* NSOutlineViewPatchTestSuite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSOutlineViewPatchTestSuite.entitlements; sourceTree = "<group>"; };
 		6F8AEE9127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOutlineViewPatchTestSuiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8AEE9527FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOutlineViewPatchTestSuiteTests.swift; sourceTree = "<group>"; };
-		6F8AEE9B27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOutlineViewPatchTestSuiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F8AEE9F27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOutlineViewPatchTestSuiteUITests.swift; sourceTree = "<group>"; };
-		6F8AEEA127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionDifference+CustomDiffing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F8AEE9827FB9765001D8C88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +60,6 @@
 			children = (
 				6F8AEE8227FB9764001D8C88 /* NSOutlineViewPatchTestSuite */,
 				6F8AEE9427FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests */,
-				6F8AEE9E27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests */,
 				6F8AEE8127FB9764001D8C88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +69,6 @@
 			children = (
 				6F8AEE8027FB9764001D8C88 /* NSOutlineViewPatchTestSuite.app */,
 				6F8AEE9127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.xctest */,
-				6F8AEE9B27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +76,7 @@
 		6F8AEE8227FB9764001D8C88 /* NSOutlineViewPatchTestSuite */ = {
 			isa = PBXGroup;
 			children = (
+				6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */,
 				6F8AEE8327FB9764001D8C88 /* AppDelegate.swift */,
 				6F8AEE8527FB9764001D8C88 /* ViewController.swift */,
 				6F8AEE8727FB9764001D8C88 /* Assets.xcassets */,
@@ -110,15 +92,6 @@
 				6F8AEE9527FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift */,
 			);
 			path = NSOutlineViewPatchTestSuiteTests;
-			sourceTree = "<group>";
-		};
-		6F8AEE9E27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6F8AEE9F27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.swift */,
-				6F8AEEA127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift */,
-			);
-			path = NSOutlineViewPatchTestSuiteUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,24 +132,6 @@
 			productReference = 6F8AEE9127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6F8AEE9A27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F8AEEAB27FB9765001D8C88 /* Build configuration list for PBXNativeTarget "NSOutlineViewPatchTestSuiteUITests" */;
-			buildPhases = (
-				6F8AEE9727FB9765001D8C88 /* Sources */,
-				6F8AEE9827FB9765001D8C88 /* Frameworks */,
-				6F8AEE9927FB9765001D8C88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F8AEE9D27FB9765001D8C88 /* PBXTargetDependency */,
-			);
-			name = NSOutlineViewPatchTestSuiteUITests;
-			productName = NSOutlineViewPatchTestSuiteUITests;
-			productReference = 6F8AEE9B27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +146,6 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					6F8AEE9027FB9765001D8C88 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 6F8AEE7F27FB9764001D8C88;
-					};
-					6F8AEE9A27FB9765001D8C88 = {
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = 6F8AEE7F27FB9764001D8C88;
 					};
@@ -215,7 +166,6 @@
 			targets = (
 				6F8AEE7F27FB9764001D8C88 /* NSOutlineViewPatchTestSuite */,
 				6F8AEE9027FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests */,
-				6F8AEE9A27FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +187,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F8AEE9927FB9765001D8C88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,6 +196,7 @@
 			files = (
 				6F8AEE8627FB9764001D8C88 /* ViewController.swift in Sources */,
 				6F8AEE8427FB9764001D8C88 /* AppDelegate.swift in Sources */,
+				6FAD56D227FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F8AEE9727FB9765001D8C88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F8AEEA027FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITests.swift in Sources */,
-				6F8AEEA227FB9765001D8C88 /* NSOutlineViewPatchTestSuiteUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -280,11 +215,6 @@
 			isa = PBXTargetDependency;
 			target = 6F8AEE7F27FB9764001D8C88 /* NSOutlineViewPatchTestSuite */;
 			targetProxy = 6F8AEE9227FB9765001D8C88 /* PBXContainerItemProxy */;
-		};
-		6F8AEE9D27FB9765001D8C88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6F8AEE7F27FB9764001D8C88 /* NSOutlineViewPatchTestSuite */;
-			targetProxy = 6F8AEE9C27FB9765001D8C88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -350,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -419,11 +349,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NSOutlineViewPatchTestSuite/NSOutlineViewPatchTestSuite.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = P23DAZFRN3;
+				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -435,6 +366,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -446,11 +378,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NSOutlineViewPatchTestSuite/NSOutlineViewPatchTestSuite.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = P23DAZFRN3;
+				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -462,6 +395,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -472,14 +406,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
+				DEVELOPMENT_TEAM = P23DAZFRN3;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOutlineViewPatchTestSuite.app/Contents/MacOS/NSOutlineViewPatchTestSuite";
@@ -491,51 +426,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
+				DEVELOPMENT_TEAM = P23DAZFRN3;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOutlineViewPatchTestSuite.app/Contents/MacOS/NSOutlineViewPatchTestSuite";
-			};
-			name = Release;
-		};
-		6F8AEEAC27FB9765001D8C88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = NSOutlineViewPatchTestSuite;
-			};
-			name = Debug;
-		};
-		6F8AEEAD27FB9765001D8C88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U3HG6UAV5D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = NSOutlineViewPatchTestSuite;
 			};
 			name = Release;
 		};
@@ -565,15 +467,6 @@
 			buildConfigurations = (
 				6F8AEEA927FB9765001D8C88 /* Debug */,
 				6F8AEEAA27FB9765001D8C88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6F8AEEAB27FB9765001D8C88 /* Build configuration list for PBXNativeTarget "NSOutlineViewPatchTestSuiteUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F8AEEAC27FB9765001D8C88 /* Debug */,
-				6F8AEEAD27FB9765001D8C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
