@@ -1,10 +1,4 @@
-//
-//  CollectionDifference+CustomDiffing.swift
-//  ghNotifier
-//
-//  Created by Patrick Dinger on 4/4/22.
-//  Copyright © 2022 Patrick Dinger. All rights reserved.
-//
+// Source: https://stackoverflow.com/a/63281265/2240679
 
 import Foundation
 
