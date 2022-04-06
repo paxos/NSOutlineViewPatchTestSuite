@@ -27,7 +27,7 @@ class NSOutlineViewPatchTestSuiteTests: XCTestCase {
         }
     }
 
-    override func tearDownWithError() {}
+    override func tearDownWithError() throws {}
 
     func testRandomScenarios10K() throws {
         if let c = viewController {
