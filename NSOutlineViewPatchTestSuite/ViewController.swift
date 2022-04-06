@@ -60,7 +60,7 @@ extension ViewController: NSTableViewDataSource {
 
 extension ViewController: NSTableViewDelegate {
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        print("viewFor:row", row, data[row])
+//        print("viewFor:row", row, data[row])
         let view = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "view"), owner: tableView) as! NSTableCellView
         view.textField?.stringValue = data[row]
         return view
