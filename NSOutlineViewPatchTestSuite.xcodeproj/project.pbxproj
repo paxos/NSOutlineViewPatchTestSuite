@@ -12,7 +12,7 @@
 		6F8AEE8827FB9764001D8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8727FB9764001D8C88 /* Assets.xcassets */; };
 		6F8AEE8B27FB9764001D8C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8927FB9764001D8C88 /* Main.storyboard */; };
 		6F8AEE9627FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE9527FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift */; };
-		6FAD56D227FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */; };
+		6FAD56D227FB9BC10012A3AC /* CollectionDifference+EC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD56D127FB9BC10012A3AC /* CollectionDifference+EC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		6F8AEE8C27FB9764001D8C88 /* NSOutlineViewPatchTestSuite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSOutlineViewPatchTestSuite.entitlements; sourceTree = "<group>"; };
 		6F8AEE9127FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOutlineViewPatchTestSuiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8AEE9527FB9765001D8C88 /* NSOutlineViewPatchTestSuiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOutlineViewPatchTestSuiteTests.swift; sourceTree = "<group>"; };
-		6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionDifference+CustomDiffing.swift"; sourceTree = "<group>"; };
+		6FAD56D127FB9BC10012A3AC /* CollectionDifference+EC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionDifference+EC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		6F8AEE8227FB9764001D8C88 /* NSOutlineViewPatchTestSuite */ = {
 			isa = PBXGroup;
 			children = (
-				6FAD56D127FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift */,
+				6FAD56D127FB9BC10012A3AC /* CollectionDifference+EC.swift */,
 				6F8AEE8327FB9764001D8C88 /* AppDelegate.swift */,
 				6F8AEE8527FB9764001D8C88 /* ViewController.swift */,
 				6F8AEE8727FB9764001D8C88 /* Assets.xcassets */,
@@ -196,7 +196,7 @@
 			files = (
 				6F8AEE8627FB9764001D8C88 /* ViewController.swift in Sources */,
 				6F8AEE8427FB9764001D8C88 /* AppDelegate.swift in Sources */,
-				6FAD56D227FB9BC10012A3AC /* CollectionDifference+CustomDiffing.swift in Sources */,
+				6FAD56D227FB9BC10012A3AC /* CollectionDifference+EC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P23DAZFRN3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -382,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P23DAZFRN3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -409,7 +409,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P23DAZFRN3;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
@@ -429,7 +429,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P23DAZFRN3;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
