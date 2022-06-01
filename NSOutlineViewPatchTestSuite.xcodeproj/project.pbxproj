@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F60313F28482E43000FAB07 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F60313E28482E43000FAB07 /* DifferenceKit */; };
 		6F8AEE8427FB9764001D8C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8327FB9764001D8C88 /* AppDelegate.swift */; };
 		6F8AEE8627FB9764001D8C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8527FB9764001D8C88 /* ViewController.swift */; };
 		6F8AEE8827FB9764001D8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8727FB9764001D8C88 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F60313F28482E43000FAB07 /* DifferenceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +112,9 @@
 			dependencies = (
 			);
 			name = NSOutlineViewPatchTestSuite;
+			packageProductDependencies = (
+				6F60313E28482E43000FAB07 /* DifferenceKit */,
+			);
 			productName = NSOutlineViewPatchTestSuite;
 			productReference = 6F8AEE8027FB9764001D8C88 /* NSOutlineViewPatchTestSuite.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 6F8AEE7727FB9764001D8C88;
+			packageReferences = (
+				6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
+			);
 			productRefGroup = 6F8AEE8127FB9764001D8C88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -353,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U3HG6UAV5D;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -382,7 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U3HG6UAV5D;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -409,7 +417,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U3HG6UAV5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
@@ -429,7 +437,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U3HG6UAV5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.the-skylab.NSOutlineViewPatchTestSuiteTests";
@@ -472,6 +480,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ra1028/DifferenceKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F60313E28482E43000FAB07 /* DifferenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */;
+			productName = DifferenceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F8AEE7827FB9764001D8C88 /* Project object */;
 }

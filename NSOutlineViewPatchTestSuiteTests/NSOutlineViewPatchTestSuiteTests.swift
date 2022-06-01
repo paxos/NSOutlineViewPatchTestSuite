@@ -37,7 +37,7 @@ class NSOutlineViewPatchTestSuiteTests: XCTestCase {
                 let newScenario = randomData()
                 print("Running Scenario \(i): \(currentScenario) -> \(newScenario)")
 
-                let result = c.runScenarioCustomSO(from: currentScenario, to: newScenario)
+                let result = c.runScenarioCustomDifferenceKit(from: currentScenario, to: newScenario)
                 if newScenario != result {
                     print("🫡 Scenario FAILED ❌: \(currentScenario) -> \(newScenario) (was: \(result)")
                 } else {
@@ -60,7 +60,7 @@ class NSOutlineViewPatchTestSuiteTests: XCTestCase {
                 let newScenario = randomData(maxSize: 100)
                 print("Running Scenario \(i): \(currentScenario) -> \(newScenario)")
 
-                let result = c.runScenarioCustomSO(from: currentScenario, to: newScenario)
+                let result = c.runScenarioCustomDifferenceKit(from: currentScenario, to: newScenario)
                 if newScenario != result {
                     print("🫡 Scenario FAILED ❌: \(currentScenario) -> \(newScenario) (was: \(result)")
                 } else {
@@ -85,7 +85,7 @@ class NSOutlineViewPatchTestSuiteTests: XCTestCase {
             let newScenario = ["7", "3", "2", "1"]
             print("Running test: \(currentScenario) -> \(newScenario)")
 
-            let result = c.runScenarioCustomSO(from: currentScenario, to: newScenario)
+            let result = c.runScenarioCustomDifferenceKit(from: currentScenario, to: newScenario)
             if newScenario != result {
                 print("result:", result)
                 print("🫡 Scenario FAILED ❌: \(currentScenario) -> \(newScenario)")
@@ -107,7 +107,7 @@ class NSOutlineViewPatchTestSuiteTests: XCTestCase {
             let newScenario = ["3", "2", "1"]
             print("Running test: \(currentScenario) -> \(newScenario)")
 
-            let result = c.runScenarioCustomSO(from: currentScenario, to: newScenario)
+            let result = c.runScenarioCustomDifferenceKit(from: currentScenario, to: newScenario)
             if newScenario != result {
                 print("result:", result)
                 print("🫡 Scenario FAILED ❌: \(currentScenario) -> \(newScenario)")

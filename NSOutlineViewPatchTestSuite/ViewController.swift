@@ -6,6 +6,10 @@
 //
 
 import Cocoa
+import DifferenceKit
+
+extension Int: Differentiable {}
+extension String: Differentiable {}
 
 class ViewController: NSViewController {
     @IBOutlet var tableView: NSTableView!
@@ -13,6 +17,14 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    func runScenarioCustomDifferenceKit(from: [String], to: [String]) -> [String] {
+        let changeSet = StagedChangeset(source: from, target: to, section: 0)
+        tableView.reload(using: changeSet, with: .effectGap) { newData in
+            data = newData
+        }
+        return dataFromTableState()
     }
 
     func runScenarioCustomSO(from: [String], to: [String]) -> [String] {
