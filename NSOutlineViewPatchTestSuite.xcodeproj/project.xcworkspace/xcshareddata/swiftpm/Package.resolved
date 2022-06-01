@@ -3,10 +3,10 @@
     {
       "identity" : "differencekit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ra1028/DifferenceKit.git",
+      "location" : "https://github.com/tobiasjordan/DifferenceKit.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "8d45ea92e009a4a719c5c330c6fd8cb795fd5a02"
+        "branch" : "bugfix/NSTableView-batch-updates",
+        "revision" : "4139c9e8c4fe9f136c21b80e4127ac0c851cbdca"
       }
     }
   ],

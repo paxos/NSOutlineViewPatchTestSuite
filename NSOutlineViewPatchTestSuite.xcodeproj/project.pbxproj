@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F60313F28482E43000FAB07 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F60313E28482E43000FAB07 /* DifferenceKit */; };
+		6F6031442848318E000FAB07 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6031432848318E000FAB07 /* DifferenceKit */; };
 		6F8AEE8427FB9764001D8C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8327FB9764001D8C88 /* AppDelegate.swift */; };
 		6F8AEE8627FB9764001D8C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8527FB9764001D8C88 /* ViewController.swift */; };
 		6F8AEE8827FB9764001D8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8AEE8727FB9764001D8C88 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F60313F28482E43000FAB07 /* DifferenceKit in Frameworks */,
+				6F6031442848318E000FAB07 /* DifferenceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			);
 			name = NSOutlineViewPatchTestSuite;
 			packageProductDependencies = (
-				6F60313E28482E43000FAB07 /* DifferenceKit */,
+				6F6031432848318E000FAB07 /* DifferenceKit */,
 			);
 			productName = NSOutlineViewPatchTestSuite;
 			productReference = 6F8AEE8027FB9764001D8C88 /* NSOutlineViewPatchTestSuite.app */;
@@ -166,7 +166,7 @@
 			);
 			mainGroup = 6F8AEE7727FB9764001D8C88;
 			packageReferences = (
-				6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
+				6F6031422848318E000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
 			);
 			productRefGroup = 6F8AEE8127FB9764001D8C88 /* Products */;
 			projectDirPath = "";
@@ -482,20 +482,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
+		6F6031422848318E000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ra1028/DifferenceKit.git";
+			repositoryURL = "https://github.com/tobiasjordan/DifferenceKit.git";
 			requirement = {
-				branch = master;
+				branch = "bugfix/NSTableView-batch-updates";
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6F60313E28482E43000FAB07 /* DifferenceKit */ = {
+		6F6031432848318E000FAB07 /* DifferenceKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6F60313D28482E43000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */;
+			package = 6F6031422848318E000FAB07 /* XCRemoteSwiftPackageReference "DifferenceKit" */;
 			productName = DifferenceKit;
 		};
 /* End XCSwiftPackageProductDependency section */
